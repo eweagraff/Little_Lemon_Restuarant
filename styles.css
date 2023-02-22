@@ -1,0 +1,40 @@
+body {
+    background-color:lightgoldenrodyellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+header > img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+nav ul {
+list-style: none;
+text-align: center;
+
+}
+
+nav li {
+display: inline-block;
+}
+
+section {
+    display: 
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}

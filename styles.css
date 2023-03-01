@@ -58,7 +58,7 @@ background-color: lavender;
 
 
 nav:hover {
-    color: lavender;
+color: blue;
 }
 
 nav li {
@@ -112,4 +112,21 @@ article {
     background-color: lavender;
   
 }
+
+@media(max-width: 768px) {
+    nav{
+        display: none;
+    }
+    #logo{
+        display: block;
+        margin: 0 auto;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
 
